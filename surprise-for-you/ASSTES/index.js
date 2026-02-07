@@ -15373,7 +15373,7 @@ const R2 = vi("X", [["path", {
   , j2 = "/MUSIC/music2-mdcMq3L1.mp3"
   , L2 = "/MUSIC/music3-BbkozScL.mp3"
   , O2 = "/ASSTES/music1-CdeFA8gC.jpg"
-  , b2 = "/ASSTES/music2-8vpVYOxC.jpg"
+  , b2 = "/ASSTES/music2-8vpVYOxC.jpeg"
   , V2 = "/ASSTES/music3-Cq1zawNE.jpg"
   , _r = ({children: t, animation: e="fade", delay: n=0, duration: r=.5, threshold: i=.1, once: s=!0}) => {
     const o = E.useRef(null)
@@ -15766,13 +15766,13 @@ Your Special Person `,
         title: "Some Special Moments",
         subtitle: "Swipe to see more ✨",
         photos: [{
-            src: "/IMAGES/pic1.gif",
+            src: "/IMAGES/pic1.jpeg",
             caption: "Thanks for making me smile 💕"
         }, {
-            src: "/IMAGES/pic2.gif",
+            src: "/IMAGES/pic2.jpeg",
             caption: "I’m so lucky to have you by my side 😊"
         }, {
-            src: "/IMAGES/pic3.gif",
+            src: "/IMAGES/pic3.jpeg",
             caption: "the most amazing person in my life ✨"
         }],
         scrollIndicators: 3,
