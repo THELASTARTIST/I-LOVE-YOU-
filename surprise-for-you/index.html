@@ -5,10 +5,65 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>This is For You!</title>
-    <script type="module" crossorigin src="./ASSTES/index.js"></script>
-    <link rel="stylesheet" crossorigin href="./ASSTES/index.css">
+    
+    <!-- Connect CSS file -->
+    <link rel="stylesheet" href="./ASSTES/index.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Your content goes here -->
+      
+      <!-- Example: Display Images -->
+      <div class="image-gallery">
+        <img src="./ASSTES/IMAGES/pic1.jpeg" alt="Picture 1">
+        <img src="./ASSTES/IMAGES/pic2.jpeg" alt="Picture 2">
+        <img src="./ASSTES/IMAGES/pic3.jpeg" alt="Picture 3">
+      </div>
+
+      <!-- Example: Display GIFs -->
+      <div class="gif-container">
+        <img src="./ASSTES/hellokitty-M_AUTonT.gif" alt="Hello Kitty">
+        <img src="./ASSTES/ntro2-DCZptf1t.gif" alt="Intro">
+      </div>
+
+      <!-- Example: Music Players -->
+      <div class="music-players">
+        <h2>Music Player</h2>
+        
+        <div class="song">
+          <h3>Song 1</h3>
+          <audio controls>
+            <source src="./ASSTES/MUSIC/music1-ClPh4k2q.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+
+        <div class="song">
+          <h3>Song 2</h3>
+          <audio controls>
+            <source src="./ASSTES/MUSIC/music2-mdcMq3L1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+
+        <div class="song">
+          <h3>Song 3</h3>
+          <audio controls>
+            <source src="./ASSTES/MUSIC/music3-BbkozScL.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+
+      <!-- Example: Display other images/music -->
+      <div class="additional-content">
+        <img src="./ASSTES/music1-CdefA8gC.jpg" alt="Music 1 Cover">
+        <img src="./ASSTES/music2-8vpVYOxC.jpeg" alt="Music 2 Cover">
+        <img src="./ASSTES/music3-Cq1zawnE.jpg" alt="Music 3 Cover">
+      </div>
+    </div>
+
+    <!-- Connect JavaScript file at the end -->
+    <script src="./ASSTES/index.js"></script>
   </body>
 </html>
